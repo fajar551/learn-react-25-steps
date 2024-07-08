@@ -1,4 +1,4 @@
-const ButtonRed = (props) => {
+const Button = (props) => {
   const { children = 'Default', variant = 'bg-black' } = props
   return (
     <button
@@ -8,3 +8,5 @@ const ButtonRed = (props) => {
     </button>
   );
 }
+
+export default Button
