@@ -1,7 +1,10 @@
+import Header from '@/components/Header'
+
 function App() {
   return (
-    <div className="flex justify-center bg-blue-600 min-h-screen items-center">
-      <div className="text-red-500">Hello world</div>
+    <div className="flex flex-col justify-center bg-slate-600 min-h-screen items-center">
+      <Header />
+      <div className="text-white">Welcome to my React app!</div>
     </div>
   )
 }
