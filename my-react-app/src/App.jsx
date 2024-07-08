@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonRed from "./components/Elements/Buttons/Button";
 
 // Class Component
 // class Button extends React.Component {
@@ -21,18 +22,18 @@ import React from "react";
 // }
 
 // Arrow Function
-const ButtonRed = (props) => {
-  // Konsep distuctering di pecah
-  const { children = 'Default', variant = 'bg-black' } = props
-  return (
-    <button
-      // className={`h-10 px-6 font-semibold rounded-md ${props.variant} text-white`}
-      className={`h-10 px-6 font-semibold rounded-md ${variant} text-white`}
-      type="submit">
-      {children}
-    </button>
-  );
-}
+// const ButtonRed = (props) => {
+//   // Konsep distuctering di pecah
+//   const { children = 'Default', variant = 'bg-black' } = props
+//   return (
+//     <button
+//       // className={`h-10 px-6 font-semibold rounded-md ${props.variant} text-white`}
+//       className={`h-10 px-6 font-semibold rounded-md ${variant} text-white`}
+//       type="submit">
+//       {children}
+//     </button>
+//   );
+// }
 
 function App() {
   return (
